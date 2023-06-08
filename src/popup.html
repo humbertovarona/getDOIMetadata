@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <h1>DOI Metadata Extractor</h1>
+  <div class="input-container">
+    <label for="doiInput">Enter DOI:</label>
+    <input type="text" id="doiInput">
+  </div>
+  <button id="extractButton">Extract</button>
+  <button id="copyButton">Copy to Clipboard</button>
+  <button id="clearButton">Clear</button>
+  <div class="result-container">
+    <label for="resultTextarea">Formatted Metadata:</label>
+    <textarea id="resultTextarea" readonly></textarea>
+  </div>
+  <div id="footer">
+      Developed by H. L. Varona
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
