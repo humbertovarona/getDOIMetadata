@@ -1,6 +1,6 @@
 # getDOIMetadata
 
-DOI Metadata Extractor
+DOI Metadata Extractor (Chrome extension)
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="50"/>
 
